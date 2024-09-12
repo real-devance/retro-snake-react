@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Define custom CSS variables for use in your styles */
+:root {
+    /* Primary font used throughout the application */
+    --primary-font: "New Amsterdam", sans-serif;
+
+    /* Secondary font for alternative text styles */
+    --secondary-font: "Oswald", sans-serif;
+
+    /* Primary color for the application's main theme */
+    --primary-color: #0d1b2a;
+
+    /* Secondary color for additional design elements */
+    --secondary-color: #1b263b;
+
+    /* Accent color used for highlights and important elements */
+    --accent-color: #FFFFFF;
+}

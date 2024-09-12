@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled source
+dist/
+build/
+.esbuild/
+
+
+# Vite
+.vite/
+
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+*.d.ts.map
+
+# IDE files
+.vscode/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
