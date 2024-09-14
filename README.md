@@ -1,17 +1,58 @@
+
 # Retro Snake 🐍
 
+Welcome to Retro Snake Game, a nostalgic revival of the classic Snake game! Built with React and inspired by LeetCode's "353. Design Snake Game" problem,.
+
+🕹️ [Live Demo](https://retro-snake-01.netlify.app/)
+
+## 🌟 Features
+
+- 🗺️ Multiple map options for varied gameplay
+- 📏 Adjustable board sizes to suit your style
+- 🎮 On-screen arrow buttons for easy mobile play
+- 🚀 Dynamic speed increases as your snake grows
+- 📊 Local storage for high scores
+
+## 🛠️ Under the Hood
+
+### Custom Hooks
+
+- `useLocalStorage.ts`: Keeps your high scores safe and sound
+- `useQueue.ts`: Manages the snake's movement with queue magic
+- `useRAF.ts`: Ensures buttery-smooth animations
+- `useRadioState.ts`: Handles those pesky radio button states
+
+### Context API
+- **Score Context**: Keeps tabs on your growing score
+- **Game Config Context**: Manages all your game settings in one place
+
+## 🚀 Get It Running
+
+```bash
+# Clone 
+git clone https://github.com/real-devance/retro-snake-react.git
+
+# Dive into the project
+cd retro-snake-react
+
+# Install 
+npm install
+
+# run
+npm run start
+```
+
+## 🧰 Tech Stack
 
 
-Welcome to **Retro Snake**, a modern take on the classic snake game! Dive into this nostalgic experience with updated graphics and enhanced gameplay designed for the web.
+- ⚛️ React 
+- 📜 TypeScript 
+- 🎨 Tailwind CSS 
+- 🎮 HTML5 Canvas 
+- ⚡ Vite 
+- 🧪 Vitest
 
-## 🎮 Overview
+##  Acknowledgements
 
-Retro Snake brings the timeless fun of the original snake game to your browser with a fresh look and feel. Navigate the snake to eat food, grow longer, and avoid collisions with the walls and itself.
-
-## 🚀 Features
-
-- **Classic Gameplay:** Control the snake to consume food and grow in length.
-- **Customizable Settings:** Tailor the game to your liking with adjustable speed, board size, and more.
-- **Responsive Design:** Enjoy the game on any device with a layout that adapts to different screen sizes.
-- **High Score Tracking:** Challenge yourself by tracking and beating your best scores.
+[LeetCode's 353 Design Snake Game](https://leetcode.com/problems/design-snake-game/description/) 
 
