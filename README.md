@@ -39,7 +39,7 @@ cd retro-snake-react
 npm install
 
 # run
-npm run start
+npm run dev
 ```
 
 ## 🧰 Tech Stack
